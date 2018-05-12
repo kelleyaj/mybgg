@@ -163,9 +163,9 @@ function init(SETTINGS) {
   search.start();
 
   function set_bgg_name() {
-    name = SETTINGS.boardgamegeek.user_name + "'s";
+   // name = SETTINGS.boardgamegeek.user_name + "'s";
     title = document.getElementsByTagName("title")[0];
-    title.innerHTML = title.innerHTML.replace("my", name);
+    //title.innerHTML = title.innerHTML.replace("my", name);
     h1 = document.getElementsByTagName("h1")[0];
     h1.innerHTML = h1.innerHTML.replace("my", name);
   }
