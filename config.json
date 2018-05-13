@@ -4,6 +4,7 @@
     },
     "boardgamegeek": {
         "user_name": "kelleyaj",
+        "subtype": "boardgame,boardgameexpansion",
         "extra_params": {
             "own": 1
         }
