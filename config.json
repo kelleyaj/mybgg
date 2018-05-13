@@ -6,7 +6,8 @@
         "user_name": "kelleyaj",
         "subtype": "boardgame,boardgameexpansion",
         "extra_params": {
-            "own": 1
+            "own": 1,
+            "exclude_subtype": "boardgameexpansion",
         }
     },
     "algolia": {
