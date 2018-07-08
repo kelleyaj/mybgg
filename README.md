@@ -99,7 +99,7 @@ GitHub Pages_. Select your master branch as Source, and click Save.
 
     This starts a webserver in the directory you're in.
 
-2. Open your web browser and go to `http://localhost:8000`. Voliá! Any time you make a change to your project you can
+2. Open your web browser and go to `http://localhost:8000`. Voliá! Any time you make a change to your project you can just reload the page to see your changes applied. When you're happy with the result, commit your changes.
 
 ## Updating your project to the latest version when mybgg is updated
 
@@ -121,7 +121,14 @@ GitHub Pages_. Select your master branch as Source, and click Save.
    git merge upstream/master
    ```
 
-4. **Push the new updated version** to GitHub:
+4. **Update to the latest version of all external libraries** that mybgg uses internally. They can update between versions.
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+
+5. **Push the new updated version** to GitHub:
 
    ```
    git push
@@ -130,5 +137,5 @@ GitHub Pages_. Select your master branch as Source, and click Save.
 ## Projects used under the hood
 
 * Meeple icon (CC4 Attribtion): https://icon-icons.com/icon/meeple/38522#256
-* Python library for BGG (BSD-3): https://github.com/lcosmin/boardgamegeek
 * Algolia search client (MIT): https://github.com/algolia/algoliasearch-client-python
+* Mobile testing with: <a href="https://www.browserstack.com"><img src="https://raw.githubusercontent.com/EmilStenstrom/mybgg/master/Browserstack-logo@2x.png" height="25" alt="Browserstack" style="vertical-align: top"></a>
