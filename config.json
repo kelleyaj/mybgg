@@ -13,6 +13,7 @@
     "algolia": {
         "app_id": "WBVVBXHZ0V",
         "api_key_search_only": "e8c82e3d370b05d3fae9fa6012dcf7b2",
-        "index_name": "mybggIndex"
+        "index_name": "mybggIndex",
+        "hits_per_page": 24
     }
 }
